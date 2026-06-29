@@ -318,7 +318,7 @@ def generate_invoice(d):
     S.append(prev); S.append(tot_row); S.append(Spacer(1,9))
 
     # 6. PAYMENT SECTION
-    tax_w=30*mm; gap2=4; qr_w=38*mm
+    tax_w=36*mm; gap2=4; qr_w=38*mm
     pd_w=CW-tax_w-qr_w-gap2*2
 
     qr_buf=make_qr(upi,acc_nm,total,inv_no)
